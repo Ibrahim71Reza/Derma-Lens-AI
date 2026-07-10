@@ -60,3 +60,5 @@ flutter:
   uses-material-design: true
   assets:
     - .env
+    - assets/data/ishihara.json
+    - assets/images/ishihara/

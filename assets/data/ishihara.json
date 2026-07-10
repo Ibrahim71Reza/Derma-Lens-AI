@@ -1,0 +1,178 @@
+[
+{
+    "plateId": 1,
+    "imagePath": "assets/images/ishihara/plate_1.png",
+    "type": "demonstration",
+    "normalVision": "12",
+    "protanDeficiency": "12",
+    "deutanDeficiency": "12"
+},
+{
+    "plateId": 2,
+    "imagePath": "assets/images/ishihara/plate_2.png",
+    "type": "transformation",
+    "normalVision": "8",
+    "protanDeficiency": "3",
+    "deutanDeficiency": "3"
+},
+{
+    "plateId": 3,
+    "imagePath": "assets/images/ishihara/plate_3.png",
+    "type": "transformation",
+    "normalVision": "6",
+    "protanDeficiency": "5",
+    "deutanDeficiency": "5"
+},
+{
+    "plateId": 4,
+    "imagePath": "assets/images/ishihara/plate_4.png",
+    "type": "transformation",
+    "normalVision": "29",
+    "protanDeficiency": "70",
+    "deutanDeficiency": "70"
+},
+{
+    "plateId": 5,
+    "imagePath": "assets/images/ishihara/plate_5.png",
+    "type": "transformation",
+    "normalVision": "57",
+    "protanDeficiency": "35",
+    "deutanDeficiency": "35"
+},
+{
+    "plateId": 6,
+    "imagePath": "assets/images/ishihara/plate_6.png",
+    "type": "transformation",
+    "normalVision": "5",
+    "protanDeficiency": "2",
+    "deutanDeficiency": "2"
+},
+{
+    "plateId": 7,
+    "imagePath": "assets/images/ishihara/plate_7.png",
+    "type": "transformation",
+    "normalVision": "3",
+    "protanDeficiency": "5",
+    "deutanDeficiency": "5"
+},
+{
+    "plateId": 8,
+    "imagePath": "assets/images/ishihara/plate_8.png",
+    "type": "transformation",
+    "normalVision": "15",
+    "protanDeficiency": "17",
+    "deutanDeficiency": "17"
+},
+{
+    "plateId": 9,
+    "imagePath": "assets/images/ishihara/plate_9.png",
+    "type": "transformation",
+    "normalVision": "74",
+    "protanDeficiency": "21",
+    "deutanDeficiency": "21"
+},
+{
+    "plateId": 10,
+    "imagePath": "assets/images/ishihara/plate_10.png",
+    "type": "vanishing",
+    "normalVision": "2",
+    "protanDeficiency": "None",
+    "deutanDeficiency": "None"
+},
+{
+    "plateId": 11,
+    "imagePath": "assets/images/ishihara/plate_11.png",
+    "type": "vanishing",
+    "normalVision": "6",
+    "protanDeficiency": "None",
+    "deutanDeficiency": "None"
+},
+{
+    "plateId": 12,
+    "imagePath": "assets/images/ishihara/plate_12.png",
+    "type": "vanishing",
+    "normalVision": "97",
+    "protanDeficiency": "None",
+    "deutanDeficiency": "None"
+},
+{
+    "plateId": 13,
+    "imagePath": "assets/images/ishihara/plate_13.png",
+    "type": "vanishing",
+    "normalVision": "45",
+    "protanDeficiency": "None",
+    "deutanDeficiency": "None"
+},
+{
+    "plateId": 14,
+    "imagePath": "assets/images/ishihara/plate_14.png",
+    "type": "vanishing",
+    "normalVision": "5",
+    "protanDeficiency": "None",
+    "deutanDeficiency": "None"
+},
+{
+    "plateId": 15,
+    "imagePath": "assets/images/ishihara/plate_15.png",
+    "type": "vanishing",
+    "normalVision": "7",
+    "protanDeficiency": "None",
+    "deutanDeficiency": "None"
+},
+{
+    "plateId": 16,
+    "imagePath": "assets/images/ishihara/plate_16.png",
+    "type": "vanishing",
+    "normalVision": "16",
+    "protanDeficiency": "None",
+    "deutanDeficiency": "None"
+},
+{
+    "plateId": 17,
+    "imagePath": "assets/images/ishihara/plate_17.png",
+    "type": "vanishing",
+    "normalVision": "73",
+    "protanDeficiency": "None",
+    "deutanDeficiency": "None"
+},
+{
+    "plateId": 18,
+    "imagePath": "assets/images/ishihara/plate_18.png",
+    "type": "hidden",
+    "normalVision": "None",
+    "protanDeficiency": "5",
+    "deutanDeficiency": "5"
+},
+{
+    "plateId": 22,
+    "imagePath": "assets/images/ishihara/plate_22.png",
+    "type": "diagnostic",
+    "normalVision": "26",
+    "protanDeficiency": "6",
+    "deutanDeficiency": "2"
+},
+{
+    "plateId": 23,
+    "imagePath": "assets/images/ishihara/plate_23.png",
+    "type": "diagnostic",
+    "normalVision": "42",
+    "protanDeficiency": "2",
+    "deutanDeficiency": "4"
+},
+{
+    "plateId": 24,
+    "imagePath": "assets/images/ishihara/plate_24.png",
+    "type": "diagnostic",
+    "normalVision": "35",
+    "protanDeficiency": "5",
+    "deutanDeficiency": "3"
+},
+{
+    "plateId": 25,
+    "imagePath": "assets/images/ishihara/plate_25.png",
+    "type": "diagnostic",
+    "normalVision": "96",
+    "protanDeficiency": "6",
+    "deutanDeficiency": "9"
+}
+]

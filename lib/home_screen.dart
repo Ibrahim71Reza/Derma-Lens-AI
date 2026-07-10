@@ -5,6 +5,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter_tts/flutter_tts.dart'; // TTS Added!
 import 'core/ai_service.dart';
 import 'main.dart';
+import 'color_blind_test_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -200,6 +201,35 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Stack(
         children: [
           SizedBox.expand(child: CameraPreview(_controller!)),
+          // Ishihara Eye Test Button (Only visible in 'Eye' mode, moved down)
+          if (_selectedMode == 'Eye')
+            Positioned(
+              top: 130, // Moved down so it doesn't overlap the top bar
+              left: 20,
+              child: Column(
+                children: [
+                  CircleAvatar(
+                    radius: 28,
+                    backgroundColor: Colors.blueAccent.withValues(alpha: 0.8), // Made it blue so it stands out
+                    child: IconButton(
+                      icon: const Icon(Icons.remove_red_eye, color: Colors.white, size: 28),
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const ColorBlindTestScreen()),
+                        );
+                      },
+                    ),
+                  ),
+                  const SizedBox(height: 6),
+                  const Text(
+                    "Color\nTest", 
+                    textAlign: TextAlign.center, 
+                    style: TextStyle(color: Colors.white, fontSize: 13, fontWeight: FontWeight.bold, shadows: [Shadow(color: Colors.black, blurRadius: 4)])
+                  ),
+                ],
+              ),
+            ),
           Positioned(
             top: 50, right: 20,
             child: CircleAvatar(
