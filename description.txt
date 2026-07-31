@@ -1,0 +1,1 @@
+Derma Lens AI is a Flutter-powered intelligent skin and prescription analysis app that helps users capture or upload images and receive AI-assisted interpretation through Google Gemini. It supports skin condition triage, prescription reading, camera/gallery input, and text-to-speech output, with structured AI responses for a smoother user experience.
